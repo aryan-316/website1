@@ -1,0 +1,139 @@
+/********************* Tag Selectors **********************/
+
+body {
+  text-align: center;
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 5.65rem;
+  /***** 100% = 16px = 1em ******/
+  margin-top: 50px;
+  color: #66BFBF;
+}
+
+a {
+  color: black;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+h2 {
+  color: #66BFBF;
+}
+
+/********************* Class Selector ********************/
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 500px;
+}
+
+.profile {
+  margin: 100px auto;
+}
+
+.developer {
+  color: #66BFBF;
+}
+
+.one {
+  background-color: #EAF6F6;
+  display: block;
+  padding-top: 100px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.omen {
+  height: 30%;
+  width: 30%;
+  float: left;
+  margin-right: 40px;
+}
+
+.joker {
+  height: 30%;
+  width: 30%;
+  float: right;
+  margin-left: 40px;
+}
+
+.three {
+  background-color: #66BFBF;
+  margin: 100px auto auto auto;
+  padding: 50px 0 20px;
+}
+
+.message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #070d05;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  padding: 20px 0;
+}
